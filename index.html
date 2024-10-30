@@ -1,18 +1,33 @@
-<!doctype html>
+<!----- Auto size iframe full screen ----->
+<!DOCTYPE html>
 <html lang="th">
 <head>
-<meta charset="UTF-8"
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>ATS GDaily Report</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>SNE-eDocument</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* ปิดการเลื่อน */
+        }
+        iframe {
+            border: 0; /* ปิดขอบของ iframe */
+            width: 100%;
+            height: 100%;
+            display: block; /* ปิดช่องว่างภายใน iframe */
+        }
+    </style>
 </head>
-<body style="padding:0px;margin:0px;width:100vw;height:100vw; background-color:#eee;">
-<iframe
-  id="app"
-src="https://script.google.com/macros/s/AKfycbxxrFzarMPiDeJ3Rz_yCIxuClg_iUK_qNf1yEgD8vdSjpQC5c9MModPK7jnn2WXjM9y/exec"
-frameborder="0"
-scrolling="no"
-style="width: 100%; height: 100%">
-</iframe>
+<body>
+    <iframe
+      id="app"
+      src="https://script.google.com/macros/s/AKfycbwN1pJAtYIHF87czbWvb6Wo563mE6o9YEoM66ec6trZjRUKv4jnR8yR0Aae7TS8mXOQ/exec"
+      allow="geolocation"
+      frameborder="0"
+      scrolling="no">
+    </iframe>
 </body>
 </html>
-
